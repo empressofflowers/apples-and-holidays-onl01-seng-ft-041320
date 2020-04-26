@@ -33,7 +33,7 @@ def all_supplies_in_holidays(holiday_supplies)
 end
 
 def all_holidays_with_bbq(holiday_supplies)
-  bbq_holidays = [];
+  bbq_holidays = []
     holiday_supplies.each do |season, holidays|
       holidays.each do |holiday, supplies|
         if supplies.include? "BBQ"
